@@ -1,0 +1,225 @@
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    text-decoration:none;
+    padding: 0.1%;
+    text-align: justify; 
+    background-color: var(--primary-background-color); 
+    --primary-background-color: #000000; 
+    --primary-border-color:#cac3c3;
+    --secondary-border-color:#000000; 
+    --primary-left-color: #310808;
+    --primary-right-color: #bdadad;
+    --left-text-color:#cac3c3;
+    --right-text-color:#000000;
+    line-height: 1.7rem;
+}
+
+.text-align-left{
+    text-align: left;
+}
+
+h1{
+    font-size:3rem;
+    margin-top: 2.5rem;
+}
+
+p, a, li, figcaption, span, h3{
+    font-size: 20px;
+}
+
+.where-when{
+    font-size: 1.1rem;
+}
+
+.job-title{
+    font-size: 2.2rem;
+    margin: 2.5rem 0 3.2rem 0;
+}
+
+h2{
+    margin: 2rem 0 2rem;
+    font-size: 1.9rem;
+    position: relative;
+}
+
+
+h3{
+    font-size: 1.2rem;
+    padding-top: 0.5rem;
+    margin-bottom: -0.1rem;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+}
+
+figcaption{
+    width: 200px;
+    font-size: 0.8rem;
+}
+
+.link-emoji{
+    border: 1px solid #cac3c3;
+    border-radius: 50%;
+    padding: 1px;
+    margin-bottom: 2rem;
+}
+
+.right .link-emoji{
+    border: 1px solid #6d6767
+}
+
+.fab {
+    font-size:2rem; 
+    color: #aaa0a0;
+    margin-right: 0.5rem;
+}
+
+
+.projectimg {
+    width: 200px;
+    height: 106px;
+    border-color: rgb(170, 160, 160);
+    border-style: solid;
+}
+
+.projetos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-project{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-figcaption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin:1rem;
+    text-align: center;
+}
+
+#cel{
+    width:100px;
+}
+.fab:hover{
+    transform: scale(1.2);
+}
+
+.projectimg:hover{
+    transform: scale(1.25);
+}
+
+
+.certifications > *{
+    margin-bottom: 0.8rem;
+}
+
+button{
+    all: unset;
+}
+
+.container-squares {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 7.4rem;
+    height: 2.8rem;
+    gap: 0.3rem;
+}
+  
+.square, .light {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.light{
+    font-size: 1.6rem;
+}
+  
+.languages{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+.square:hover, .light:hover{
+transform: scale(1.2);
+margin: 10px 0;
+}
+
+.portuguese:hover, .english:hover{
+    transform: scale(1.2);
+}
+
+.dark-navy{
+background-color:#0a0a3b;
+}
+
+.dark-red {
+background-color:var(--primary-left-color);
+}
+
+.main{
+    display: flex;
+    gap: 0.5%;
+}
+
+.left{
+    background-color: #310808;
+    flex: 2;  
+    color: var(--left-text-color);
+    padding: 2rem;
+}
+
+.right{
+    background-color: #bdadad;   
+    flex:3;
+    padding: 2rem;
+}
+
+.themes-languages{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.portuguese{
+    width: 2.1rem;
+}
+
+.english{
+    width:2rem;
+}
+
+#fotoperfil{
+    float: right;
+    width: 150px;
+    border-color: #000000;
+    border-style: solid;
+    border-radius: 10%;
+    margin-top: 2rem;
+}
+
+.experiencia li, .formacao li{
+    margin-bottom: 0.5rem;
+}
+
+
+
+
